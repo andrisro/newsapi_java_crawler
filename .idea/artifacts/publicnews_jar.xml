@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="publicnews:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/publicnews_jar</output-path>
+    <root id="archive" name="publicnews.jar">
+      <element id="module-output" name="publicnews" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.2/log4j-api-2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.2/log4j-core-2.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
