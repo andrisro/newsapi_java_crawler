@@ -41,6 +41,8 @@ public class UpdateSQLDataFactory {
 			
 			int articlesInserted = updatePublisherSQLTable(connection, newsProvider, false);
 			articlesInsertedSum += articlesInserted;
+
+			logger.trace("Added "+articlesInserted +"articles");
 		}
 
 		logger.debug("Finished All Updates: Count "+articlesInsertedSum);

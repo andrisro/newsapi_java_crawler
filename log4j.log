@@ -1,0 +1,17 @@
+2017-12-02 10:34:55,693 DEBUG [main] launcher.Launcher (Launcher.java:23) - Execute an Update
+2017-12-02 10:34:58,002 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Hawaii tests nuclear warning siren
+2017-12-02 10:34:59,288 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Koalitionssuche im News-Ticker: Schulz dementiert GroKo-Einigung
+2017-12-02 10:34:59,375 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Sony Alpha 7R III: Test der besten Profi-DSLM des Jahres
+2017-12-02 10:34:59,584 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Miss-Germany-Wahl: Nach Aus bei RTL: Neues Jobangebot für Sylvie Meis
+2017-12-02 10:35:00,289 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Der "Noon Song" feiert sein Jubiläum
+2017-12-02 10:35:00,415 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Darum sind die Berliner Ämter beim Unterhalt überlastet
+2017-12-02 10:35:04,191 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Fahrbericht: Ford Transit Custom : Jetzt mit Assistenten für die Geschäftsleitung
+2017-12-02 10:35:04,282 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Computer von Jobs und Wozniak: Die Reliquien der Apple-Jünger
+2017-12-02 10:35:05,074 DEBUG [main] factories.SQLFactory (SQLFactory.java:88) - Insert Article with Title Parteitag der AfD: Rechtsnationale und Konservative ringen um Macht
+2017-12-02 10:35:05,526 DEBUG [main] factories.UpdateSQLDataFactory (UpdateSQLDataFactory.java:48) - Finished All Updates: Count 9
+2017-12-02 10:35:07,657 ERROR [main] launcher.Launcher (Launcher.java:31) - Got an Error while getting / inserting the News 
+java.lang.NullPointerException
+	at me.andrisroling.publicnews.factories.SQLFactory.formatDates(SQLFactory.java:276) ~[classes/:?]
+	at me.andrisroling.publicnews.factories.UpdateSQLDataFactory.doUpdate(UpdateSQLDataFactory.java:51) ~[classes/:?]
+	at me.andrisroling.publicnews.launcher.Launcher.main(Launcher.java:27) [classes/:?]
+2017-12-02 10:35:07,668 DEBUG [main] launcher.Launcher (Launcher.java:35) - Sleep for 1 Minute
