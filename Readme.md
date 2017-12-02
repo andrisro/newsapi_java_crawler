@@ -10,7 +10,7 @@ API:
 - https://newsapi.org/
 
 Github for this Repository:
-- https://github.com/andrisro/publicnews
+- https://github.com/andrisro/newsapi_java_crawler
 
 
 INFORMATION:
